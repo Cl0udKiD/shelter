@@ -55,8 +55,17 @@
     line-height: 160%;
 }
 
-.navlist>a:first-child{
+.navlist>a:nth-child(2){
     text-decoration:underline;
+    color: #292929;
+}
+
+.navlist>a{
+    transition: 0.3s;
+}
+
+.navlist>a:hover{
+    color: #292929;
 }
 
 .navbar{
@@ -88,9 +97,11 @@
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     cursor: pointer;
+    transition: 0.3s;
 }
-tr{
 
+.pets_item:hover>.learn{
+    background: #FDDCC4;
 }
 
 .pets_item{
@@ -173,6 +184,10 @@ tr>.pets_item:last-child{
     background: #F1CDB3;
     border-radius: 100px;
     padding-top: 14px;
+}
+
+.navigation>button:hover{
+    background: #FDDCC4;
 }
 
 .start{
