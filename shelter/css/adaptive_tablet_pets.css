@@ -1,0 +1,81 @@
+@media (max-width: 1279px) {
+
+    .wrapper{
+        max-width: 708px;
+    }
+
+    .header{
+        height: 120px;
+    }
+
+    .navbar{
+        margin-top: 46px;
+        margin-left: 81px;
+        width: 443px;
+    }
+
+    .main{
+        height: 1733px;
+    }
+
+    .pets_showcase{
+        margin-top: 30px;
+        width: 580px;
+        height: 1365px;
+        display: grid;
+        margin-left: 64px;
+        grid-template-columns: repeat(2, 270px);
+        grid-template-rows: repeat(3, 435px);
+        grid-column-gap: 40px;
+        grid-row-gap: 30px;
+    }
+
+    .navigation{
+        margin-left: 184px;
+        margin-top: 30px;
+        width: 340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pets_item:nth-child(7){
+        display: none;
+    }
+
+    .pets_item:nth-child(8){
+        display: none;
+    }
+    
+    .footer{
+        height: 639px;
+    }
+
+    .footer_puppy{
+        margin-left: 204px;
+        height: 310px;
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .footer_content{
+        margin-top: 30px;
+        margin-left: 34px;
+        width: 609px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer_contacts{
+        width: 280px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 62px;
+    }
+    
+    .footer_location{
+        margin-top:0px;
+        margin-right: 0px;
+    }
+
+}

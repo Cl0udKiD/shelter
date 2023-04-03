@@ -1,0 +1,332 @@
+@media (max-width: 767px) {
+
+    .wrapper {
+        max-width: 310px;
+    }
+
+    .header{
+        height: 823px;
+    }
+
+    .title_container{
+        margin-left: 10px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .burger{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 22px;
+        margin-left: 262px;
+        margin-top: 50px;
+    }
+
+    .line{
+        width: 30px;
+        height: 2px;
+        background-color: #F1CDB3;
+    }
+
+    .header_text{
+        margin-top: 60px;
+        margin-left: 2px;
+        width:300px;
+        margin-right: 0px;
+    }
+
+    .h_text1{
+        font-size: 25px;
+        width: 300px;
+        text-align: center;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    .h_text2{
+        width: 300px;
+        text-align: center;
+    }
+        
+    .friend{
+        margin-left: 46px;
+    }
+
+    .puppy_header{
+        width: 260px;
+        height: 271px;
+        margin-top: 108px;
+        margin-left: 40px;
+    }
+
+    .about{
+        padding: 0;
+        height: 974px;
+        background: white;
+        display: flex;
+    }
+    
+    .about_text{
+        margin-top: 80px;
+        width: 300px;
+        order: 1;
+        margin-left: 0px;
+        text-align: justify;
+        height: 494px;
+        margin-top: 42px;
+    }
+        
+    .about_text1{
+        text-align: center;
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .about_text2{
+        width: 270px;
+        margin-left: 15px;
+    }
+
+    .about_text3{
+        width: 270px;
+        margin-left: 15px;
+    }
+    
+    .about_pets{
+        order: 2;
+        margin-left: 20px;
+        height: 353px;
+        width: 260px;
+        margin-right: 0px;
+    }
+
+    .pets{
+        display: flex;
+        flex-direction: column;
+        height: 791px;
+        background: #F6F6F6;
+        color: #545454;
+    }
+
+    .pets_header{
+        margin-top: 42px;
+        font-size: 25px;
+        height: 64px;
+    }
+    
+    .pets_showcase{
+        order: 1;
+        margin-top: 42px;
+        margin-left: 15px;
+        display: flex;
+        width: 270px;
+        height: 435px;
+    }
+
+    .pets_item:first-child{
+        margin-right: 0px;
+    }
+    
+    .pets_item:nth-child(2){
+        display: none;
+    }
+
+    .pets_showcase_image{
+        width: 270px;
+        height: 270px;
+    }
+
+    .pets_item:last-child{
+        display: none;
+    }
+    
+    .pets_item:nth-child(2){
+        margin-right: 0;
+    }
+      
+    .arrow1{
+        position: relative;
+        order: 2;
+        margin-left: 58px;
+        margin-top: 20px;
+    }
+
+    .arrow2{
+        order: 3;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+        
+    .rest{
+        order: 4;
+        margin-top: 42px;
+        margin-left: 20px;
+    }
+
+    .help{
+        height: 745px;
+    }
+    
+    .help_header{
+        margin-left: 40px;
+        font-size: 25px;
+        margin-top: 42px;
+        margin-bottom: 40px;
+    }
+    
+    .help_item{
+        height: 87px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .help_name{
+        text-align: center;
+        width: 130px;
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    .help_image{
+        transform: scale(0.83);
+        align-self: center;
+    }   
+    
+    .help_list{
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        margin-left: 5px;
+    }
+    
+    .donation{
+        height: 542px;
+    }
+    
+    .donation_puppy{
+        order: 2;
+        margin-top: 0px;
+        margin-left: 20px;
+        height: 135px;
+        width: 260px;
+    }
+    
+    .donation_text{
+        order: 1;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 42px;
+    }
+
+    .donation_text1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .donation_text2{
+        margin-top: 22px;
+        font-size: 15px;
+        letter-spacing: 0;
+        text-align: center;
+        width: 273px;
+        margin-left: 13px;
+    }
+
+    .card_number{
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .card{
+        margin-left: 9px;
+        margin-top: 22px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 15px;
+        gap: 10px;
+        width: 281px;
+        height: 43px;
+        left: 0px;
+        top: 147px;
+        background: #F1CDB3;
+        border-radius: 9px; 
+        transition: 0.3s;
+    }
+
+    .legal{
+        margin-left: 10px;
+        width: 280px;
+        text-align: justify;
+    }
+    
+    .footer{
+        height: 809px;
+    }
+
+    .footer_puppy{
+        margin-left: 20px;
+        height: 269px;
+        width: 260px;
+        margin-top: 0px;
+    }
+
+    .footer_content{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_subheader{
+        text-align: center;
+        width: 280px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .footer_contacts{
+        width: 300px;
+        margin-left: 0px;
+        margin-top:0px;
+        margin-right: 0px;
+    }
+
+    .footer_item{
+        align-self: center;
+        margin-top: 42px;
+    }
+
+    .footer_contacts>.footer_item:last-child{
+        margin-left: 5px;
+    }
+
+    .footer_contacts>.footer_item>.footer_image{
+        margin-left: 24px;
+    }
+    
+    .footer_location{
+        margin-top:43px;
+        margin-right: 0px;
+    }
+
+    .footer_location>.footer_item{
+        margin-top: 40px;
+    }
+
+}

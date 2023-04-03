@@ -307,34 +307,6 @@ body{
     text-align: center;
 }
 
-.help_item{
-    width:fit-content;
-    text-align: center;
-}
-
-.help_name{
-    margin-top: 30px;
-}
-
-.help_list1{
-    margin-left: 87px;
-    width: 1026px;
-    height: 113px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 55px;
-}
-
-.help_list2{
-    margin-left: 171px;
-    width: 858px;
-    height: 113px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .donation{
     display: flex;
     flex-direction: row;
@@ -406,25 +378,29 @@ body{
 .footer{
     display: flex;
     height: 350px;
-    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    background:radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
 
 .footer_contacts{
-    margin-left: -12px;
+    color: #FFFFFF;
+    margin-left: 0px;
     margin-top:18px;
     margin-right: 161px;
 }
 
 .footer_location{
+    color: #FFFFFF;
     margin-top:18px;
     margin-right: 160px;
 }
 
 .footer_content{
     margin-top: 40px;
+    margin-left: 0;
+    width: 741px;
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 
 .footer_item{
@@ -447,12 +423,29 @@ body{
     margin-bottom: 40px;
 }
 
+.footer_subheader:first-child{
+    width: 280px;
+}
+
+.footer_subheader:last-child{
+    width: 270px;
+}
+
 .footer_location>.footer_item{
-    margin-bottom: 32px;
+    margin-bottom: 31px;
+    width: 299px;
+    margin-left: -5px;
 }
 
 .footer_location>.footer_subheader{
     margin-bottom: 34px;
+}
+
+.footer_puppy{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 300px;
+    height: 310px;
 }
 
 .mail_link{

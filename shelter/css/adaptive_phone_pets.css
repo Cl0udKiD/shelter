@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+
+    .wrapper {
+        max-width: 310px;
+    }
+
+    .header{
+        height: 120px;
+    }
+
+    .title_container{
+        margin-left: 10px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .burger{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 22px;
+        margin-left: 262px;
+        margin-top: 50px;
+    }
+
+    .line{
+        width: 30px;
+        height: 2px;
+        background-color: #000000;
+    }
+
+
+    .main{
+        height: 1649px;
+    }
+
+    .main_header{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        margin-top: 42px;
+        margin-bottom: 0;
+    }
+
+    .pets_showcase{
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 270px;
+        height: 1365px;
+        display: grid;
+        grid-template-columns: repeat(1, 270px);
+        grid-template-rows: repeat(3, 435px);
+        grid-column-gap: 40px;
+        grid-row-gap: 30px;
+    }
+
+    .navigation{
+        margin-left: 5px;
+        margin-top: 37px;
+        width: 300px;
+    }
+    
+
+    .pets_item:nth-child(4){
+        display: none;
+    }
+    
+    .pets_item:nth-child(5){
+        display: none;
+    }
+
+    .pets_item:nth-child(6){
+        display: none;
+    }
+
+
+    .footer{
+        height: 809px;
+    }
+
+    .footer_puppy{
+        margin-left: 20px;
+        height: 269px;
+        width: 260px;
+        margin-top: 0px;
+    }
+
+    .footer_content{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_subheader{
+        text-align: center;
+        width: 280px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .footer_contacts{
+        width: 300px;
+        margin-left: 0px;
+        margin-top:0px;
+        margin-right: 0px;
+    }
+
+    .footer_item{
+        align-self: center;
+        margin-top: 42px;
+    }
+
+    .footer_contacts>.footer_item:last-child{
+        margin-left: 5px;
+    }
+
+    .footer_contacts>.footer_item>.footer_image{
+        margin-left: 24px;
+    }
+    
+    .footer_location{
+        margin-top:43px;
+        margin-right: 0px;
+    }
+
+    .footer_location>.footer_item{
+        margin-top: 40px;
+    }
+
+}
