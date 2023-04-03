@@ -7,6 +7,8 @@
     <link rel="icon" href="../assets/logo.webp">
     <link rel="stylesheet" href="../css/pets.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/adaptive_tablet_pets.css">
+    <link rel="stylesheet" href="../css/adaptive_phone_pets.css">
     <title>Shelter</title>
 </head>
 <body>
@@ -20,62 +22,64 @@
             <nav class="navbar">
                 <li class="navlist">
                     <a href="../index.html#about">About the shelter</a>
-                    <a href="#">Our pets</a>
+                    <a href="/HTML/pets.html">Our pets</a>
                     <a href="../index.html#help">Help the shelter</a>
                     <a href="#contacts">Contacts</a>
                 </li>
             </nav>
+            <div class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="burger_click"></div>
         </div>
     </div>
     <div class="main">
         <div class="wrapper">
             <h3 class="main_header">Our friends who<br>are looking for a house</h3>
-            <table class="pets_showcase">
-                <tr class="row1">
-                    <td class="pets_item">
-                        <img src="../assets/pets-katrine.png" alt="cat" class="pets_showcase_image">
-                        <p class="pet_name">Katrine</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                    <td class="pets_item">
-                        <img src="../assets/pets-jennifer.png" alt="dog" class="pets_showcase_image">
-                        <p class="pet_name">Jennifer</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                    <td class="pets_item">
-                        <img src="../assets/pets-woody.png" alt="dog" class="pets_showcase_image">
-                        <p class="pet_name">Woody</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                    <td class="pets_item">
-                        <img src="../assets/pets-sophia.png" alt="dog" class="pets_showcase_image">
-                        <p class="pet_name">Sophia</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                </tr>
-                <tr class="row2">
-                    <td class="pets_item">
-                        <img src="../assets/pets-timmy.png" alt="cat" class="pets_showcase_image">
-                        <p class="pet_name">Timmy</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                    <td class="pets_item">
-                        <img src="../assets/pets-charly.png" alt="dog" class="pets_showcase_image">
-                        <p class="pet_name">Charly</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                    <td class="pets_item">
-                        <img src="../assets/pets-scarlet.png" alt="dog" class="pets_showcase_image">
-                        <p class="pet_name">Scarlet</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                    <td class="pets_item">
-                        <img src="../assets/pets-freddie.png" alt="cat" class="pets_showcase_image">
-                        <p class="pet_name">Freddie</p>
-                        <button class="learn">Learn more</button>
-                    </td>
-                </tr>
-            </table>
+            <div class="pets_showcase">
+                <div class="pets_item">
+                    <img src="../assets/pets-katrine.png" alt="cat" class="pets_showcase_image">
+                    <p class="pet_name">Katrine</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-jennifer.png" alt="dog" class="pets_showcase_image">
+                    <p class="pet_name">Jennifer</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-woody.png" alt="dog" class="pets_showcase_image">
+                    <p class="pet_name">Woody</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-sophia.png" alt="dog" class="pets_showcase_image">
+                    <p class="pet_name">Sophia</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-timmy.png" alt="cat" class="pets_showcase_image">
+                    <p class="pet_name">Timmy</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-charly.png" alt="dog" class="pets_showcase_image">
+                    <p class="pet_name">Charly</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-scarlet.png" alt="dog" class="pets_showcase_image">
+                    <p class="pet_name">Scarlet</p>
+                    <button class="learn">Learn more</button>
+                </div>
+                <div class="pets_item">
+                    <img src="../assets/pets-freddie.png" alt="cat" class="pets_showcase_image">
+                    <p class="pet_name">Freddie</p>
+                    <button class="learn">Learn more</button>
+                </div>
+            </div>
             <div class="navigation">
                 <button class="start"><<</button>
                 <button class="prev"><</button>
@@ -89,7 +93,7 @@
         <div class="wrapper">
             <div class="footer_content">
                 <div class="footer_contacts">
-                    <h3 class="footer_subheader">For questions<br>and suggestions</h3>
+                    <h3 class="footer_subheader">For questions and suggestions</h3>
                     <div class="footer_item">
                         <img src="../assets/mail.svg" alt="mail" class="footer_image">
                         <a href="mailto: email@shelter.com" class="mail_link"></a>
@@ -102,7 +106,7 @@
                     </div>
                 </div>
                 <div class="footer_location">
-                    <h3 class="footer_subheader">We are waiting<br>for your visit</h3>
+                    <h3 class="footer_subheader">We are waiting for your visit</h3>
                     <div class="footer_item">
                         <img src="../assets/pin.svg" alt="pin" class="footer_image">
                         <a href="https://goo.gl/maps/WLdq9nkyS3Cj28gLA " target="_blank" class="boston_link"></a>
@@ -114,8 +118,8 @@
                         <h4 class="london_adress">18 South Park, London </h4>
                     </div>
                 </div>
-                <img src="../assets/footer-puppy.png" alt="puppy" class="footer_puppy">
             </div>
+            <img src="../assets/footer-puppy.png" alt="puppy" class="footer_puppy">
         </div>
     </div>
 </body>
